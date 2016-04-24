@@ -1,0 +1,19 @@
+#main {
+   @extend .container-fluid;
+}
+.l-product {
+   @include make-sm-column(8);
+   .product {
+      &-list {
+         @include make-row();
+      }
+      &-item {
+         margin-top: 20px;
+         @include make-sm-column(4);
+      }
+   }
+}
+.l-cart {
+   margin-top: 20px;
+   @include make-sm-column(4);
+}

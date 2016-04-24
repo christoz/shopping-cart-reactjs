@@ -1,0 +1,6 @@
+body {
+   @extend .container-fluid;
+}
+.l-product {
+   .make-sm-column(8);
+}
